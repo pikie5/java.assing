@@ -1,3 +1,4 @@
+
 // Parent class: Vehicle
 class Vehicle {
     protected String brand;
@@ -9,6 +10,7 @@ class Vehicle {
 
     public void brake(int decrease) {
         speed = Math.max(0, speed - decrease);
+  
     }
 
     public void showDetails() {
