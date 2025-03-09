@@ -1,13 +1,11 @@
-<<<<<<< HEAD
+
 
 //create class discount
-=======
->>>>>>> 66eab2d73539f1209ef24965c0a81c4e3830335c
+
 public class Discount {
 
     // Method to calculate discount based on the amount
-    public static double getDiscount(double amount) {
-<<<<<<< HEAD
+    public static double getDiscount(double amount) 
         double discount =0.0; //initialise discount
         //call if statement
         if (amount > 5000) {
@@ -16,7 +14,7 @@ public class Discount {
             discount = amount * 0.05;//>1000 & <=5000 discount=5%
         } 
         return discount;
-=======
+
         double discount = 0.0; // Initialize discount to 0.0
 
         // Check if the amount is greater than 5000
@@ -27,20 +25,19 @@ public class Discount {
         }
 
         return discount; // Return the calculated discount
->>>>>>> 66eab2d73539f1209ef24965c0a81c4e3830335c
+
     }
         //call the funtion
     public static void main(String[] args) {
-<<<<<<< HEAD
 double discount;
 discount = getDiscount(7000);//let salary=7000
 System.out.println(discount);
-=======
+
         double discount;
         // Call the getDiscount method 
         discount = getDiscount(7000);
         // Print the calculated discount
         System.out.println(discount);
->>>>>>> 66eab2d73539f1209ef24965c0a81c4e3830335c
+
     }
 }
